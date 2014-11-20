@@ -20,7 +20,7 @@ Define the location of your content by placing it between these two comments:
 1. `<!--- CONTENT -->`
 2. `<!--- /CONTENT -->`
 
-After that, run `ma myMarkdownFile.md`.
+After that, run `ma myMarkdownFile.md` from your command line.
 
 If you try run ma without specifying a file, it will automaticly try to find the following files: 
 
