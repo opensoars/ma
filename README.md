@@ -22,4 +22,9 @@ Define the location of your content by placing it between these two comments:
 
 After that, run `ma myMarkdownFile.md`.
 
-If you try run ma without specifying a file, it will automaticly try to find the following files: `README.md`, `readme.md`, `README.markdown` and `readme.markdown`.
+If you try run ma without specifying a file, it will automaticly try to find the following files: 
+
+* `README.md`
+* `readme.md`
+* `README.markdown`
+* `readme.markdown`
