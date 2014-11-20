@@ -22,4 +22,4 @@ Define the location of your content by placing it between these two comments:
 
 After that, run `ma myMarkdownFile.md` from your command line.
 
-If you try run ma without specifying a file, it will automaticly try to find files with the `.md` and `.markdown` file extension
+If you run ma without specifying a file, it will automaticly try to find files with the `.md` and `.markdown` file extension
