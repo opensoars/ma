@@ -1,6 +1,6 @@
 #ma
 
-Makes it simple to create a table of contents section with links to header anchors.
+Makes it simple to create a table of contents section with links to header anchors in the content.
 
 ---
 
