@@ -20,6 +20,8 @@ Define the location of your content by placing it between these two comments:
 1. `<!--- CONTENT -->`
 2. `<!--- /CONTENT -->`
 
+If the content is empty, it will automaticly place headers. When a section of your documentation has a sub section, it will automaticly give it a smaller font size.
+
 After that, run `ma myMarkdownFile.md` from your command line.
 
 If you run ma without specifying a file, it will automaticly try to find files with the `.md` and `.markdown` file extension.
