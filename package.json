@@ -19,7 +19,8 @@
   },
 
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "*",
+    "istanbul": "*"
   },
 
   "repository": {
