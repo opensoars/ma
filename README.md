@@ -6,7 +6,7 @@ Makes it simple to create a table of contents section with links to header ancho
 
 ## Install
 
-`npm install ma -g`
+`npm install ma -g` or clone source.
 
 ## Use
 
