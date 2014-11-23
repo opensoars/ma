@@ -15,7 +15,7 @@ Define the location of your table of contents by placing it between these two co
 1. `<!--- TABLE_OF_CONTENTS -->`
 2. `<!--- /TABLE_OF_CONTENTS -->`.
 
-Define the location of your content by placing it between these two comments: 
+Define the location of (where to place) your content by placing (it between) these two comments: 
 
 1. `<!--- CONTENT -->`
 2. `<!--- /CONTENT -->`
