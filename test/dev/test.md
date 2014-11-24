@@ -7,6 +7,7 @@ Asynchronous and modular Node.js made easy.
 ## Table of contents
 
 <!--- TABLE_OF_CONTENTS -->
+
 * Introduction
   - Asynchronous Node.js
   - Modular Node.js
@@ -67,6 +68,7 @@ Asynchronous and modular Node.js made easy.
   - Project stability
   - Future features
 * Feedback
+
 <!--- /TABLE_OF_CONTENTS -->
 
 ---
