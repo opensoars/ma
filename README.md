@@ -10,6 +10,8 @@ Makes it simple to create a table of contents section with links to header ancho
 
 ## Use
 
+Ma assumes you use a correct indentation style. No tab characters and two spaces for each indentation.
+
 Define the location of your table of contents by placing it between these two comments: 
 
 1. `<!--- TABLE_OF_CONTENTS -->`
