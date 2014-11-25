@@ -136,4 +136,4 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat.
 ```
 
-Which will look like [this](https://github.com/opensoars/ma/blob/master/doc/example_result.md)
+Which looks like [this](https://github.com/opensoars/ma/blob/master/doc/example_result.md).
