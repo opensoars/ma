@@ -1,3 +1,13 @@
+# f_
+
+Asynchronous and modular Node.js made easy.
+
+---
+
+## Table of contents
+
+<!-- TABLE_OF_CONTENTS -->
+
 * [**Introduction**](#introduction)
   * [Asynchronous Node.js](#asynchronous-nodejs)
   * [Modular Node.js](#modular-nodejs)
@@ -59,6 +69,11 @@
   * [Future features](#future-features)
 * [**Feedback**](#feedback)
 
+<!-- /TABLE_OF_CONTENTS -->
+
+---
+
+<!-- CONTENT -->
 
 ## Introduction
 ### Asynchronous Node.js
@@ -145,4 +160,4 @@
 
 ## Feedback
 
----
+<!-- /CONTENT -->
