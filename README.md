@@ -50,7 +50,7 @@ Input:
 ```md
 # Lorem ipsum
 
-Asynchronous Node.js made easy.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ---
 
@@ -88,7 +88,7 @@ Output:
 ```md
 # Lorem ipsum
 
-Asynchronous Node.js made easy.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ---
 
@@ -140,7 +140,7 @@ Which will look like:
 
 # Lorem ipsum
 
-Asynchronous Node.js made easy.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ---
 
