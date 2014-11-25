@@ -34,21 +34,147 @@ There is one limitation regarding the naming of sections and sub sections, they 
 
 ---
 
-## Example
-
-```md
-# Test
-## Some more tests
-
-* Hello
-  * world
-```
-
----
-
 ## Todo
 
 * Better testing
 * Fix multiple runs on a single file
 * Fix editing existing files
 * Write example to show on readme
+
+---
+
+## Example
+
+Input:
+
+```md
+# Lorem ipsum
+
+Asynchronous Node.js made easy.
+
+---
+
+## Table of contents
+
+<!--- TABLE_OF_CONTENTS -->
+
+* Lorem
+  * Amet
+    * Elit
+* Ipsum
+  * laborum
+  * Mollit
+* Dolor
+
+<!--- /TABLE_OF_CONTENTS -->
+
+---
+
+<!--- CONTENT -->
+<!--- /CONTENT -->
+
+---
+
+## Lorem ipsum
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat.
+```
+
+Output:
+
+```md
+# Lorem ipsum
+
+Asynchronous Node.js made easy.
+
+---
+
+## Table of contents
+
+<!--- TABLE_OF_CONTENTS -->
+
+* [**Lorem**](#lorem)
+  * [Amet](#amet)
+    * [Elit](#elit)
+* [**Ipsum**](#ipsum)
+  * [laborum](#laborum)
+  * [Mollit](#mollit)
+* [**Dolor**](#dolor)
+
+<!--- /TABLE_OF_CONTENTS -->
+
+---
+
+<!--- CONTENT -->
+
+## Lorem
+### Amet
+#### Elit
+
+---
+
+## Ipsum
+### laborum
+### Mollit
+
+---
+
+## Dolor
+
+<!--- /CONTENT -->
+
+---
+
+## Lorem ipsum
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat.
+```
+
+Which will look like:
+
+# Lorem ipsum
+
+Asynchronous Node.js made easy.
+
+---
+
+## Table of contents
+
+* [**Lorem**](#lorem)
+  * [Amet](#amet)
+    * [Elit](#elit)
+* [**Ipsum**](#ipsum)
+  * [laborum](#laborum)
+  * [Mollit](#mollit)
+* [**Dolor**](#dolor)
+
+---
+
+## Lorem
+### Amet
+#### Elit
+
+---
+
+## Ipsum
+### laborum
+### Mollit
+
+---
+
+## Dolor
+
+---
+
+## Lorem ipsum
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat.
