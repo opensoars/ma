@@ -53,7 +53,7 @@ Asynchronous and modular Node.js made easy.
   * [logErrStack](#logerrstack)
   * [cleanup](#cleanup)
 * [**Flowcharts**](#flowcharts)
-  * [augment/setup](#augment/setup)
+  * [augment/setup](#augmentsetup)
   * [next](#next)
   * [Simple program](#simple-program)
 * [**Examples**](#examples)
