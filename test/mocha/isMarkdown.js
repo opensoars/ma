@@ -11,6 +11,10 @@ describe('#isMarkdown', function (){
     assert.equal(isMarkdown('test.markdown'), true);
   });
 
+  it('returns false if we test a file without a markdown extension', function (){
+    assert.equal(isMarkdown('test.not_md'), false);
+  });
+
   it("doesn't throw when the regex pattern can't find any form of file extension", function (){
     assert.doesNotThrow(function (){
       isMarkdown('test');
