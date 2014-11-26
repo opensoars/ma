@@ -1,8 +1,16 @@
 # ma
 
+[![Build Status](https://img.shields.io/travis/opensoars/ma.svg?style=flat)](https://travis-ci.org/opensoars/ma)
+[![Coverage Status](https://img.shields.io/coveralls/opensoars/ma.svg?style=flat)](https://coveralls.io/r/opensoars/ma)
+[![Dependency Status](https://david-dm.org/opensoars/ma.svg?style=flat)](https://david-dm.org/opensoars/ma)
+[![Development Dependency Status](https://david-dm.org/opensoars/ma/dev-status.svg?style=flat)](https://david-dm.org/opensoars/ma#info=devDependencies&view=table)
+
+
 Makes it simple to create a table of contents section with anchor links to header anchors in documentation content.
 
+
 ---
+
 
 ## Install
 
