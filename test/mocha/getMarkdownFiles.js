@@ -3,11 +3,11 @@ var assert = require('assert');
 var base_dir = __dirname + '/../..',
     lib_dir = base_dir + '/lib/',
     module_dir = base_dir + '/node_modules/'
-    md_dir = __dirname + '/md/';
+    md_dir = __dirname + '/../fixtures/md/';
 
 
 process.LIB = lib_dir;
-process.MSGS = require(lib_dir + 'MSGS.js');
+process.MSGS = require(lib_dir + 'msgs.js');
 
 process.logErr = function (){};
 process.log = function (){};
