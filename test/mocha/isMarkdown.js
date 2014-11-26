@@ -5,6 +5,8 @@ var base_dir = __dirname + '/../..',
 
 var isMarkdown = require(lib_dir + '/isMarkdown.js');
 
+process.test = 123;
+
 describe('#isMarkdown', function (){
   it('returns true if we test *.md and *.markdown', function (){
     assert.equal(isMarkdown('test.md'), true);
