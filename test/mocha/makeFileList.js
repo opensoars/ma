@@ -19,10 +19,21 @@ describe('#makeFileList', function (){
     });
   });
 
-    it("doesn't throw when we pass a wrong type", function (){
+  it("doesn't throw when we pass a wrong type", function (){
     assert.doesNotThrow(function (){
       makeFileList({wrong: 'type'});
     });
+  });
+
+  it('returns an empty string when we do not pass anything, wrong type or empty array', function (){
+    assert.equal(makeFileList(), '');
+    assert.equal(makeFileList([]), '');
+    assert.equal(makeFileList({}), '');
+  });
+
+  it('returns a formatted file list when we pass an array with atleast 1 element', function (){
+    assert.equal(makeFileList(['one']).length, 11);
+    assert.equal(makeFileList(['one']).charAt(6), '-');
   });
 
 });
