@@ -8,7 +8,9 @@ var base_dir = __dirname + '/../..',
 process.LIB = lib_dir;
 process.MSGS = require(lib_dir + 'MSGS.js');
 
-process.logErr = require(module_dir + 'ezlog');
+process.logErr = function (){};
+process.log = function (){};
+process.logWarn = function (){};
 
 
 var getMarkdownFiles = require(lib_dir + 'getMarkdownFiles.js');
