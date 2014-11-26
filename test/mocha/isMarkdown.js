@@ -6,12 +6,21 @@ var base_dir = __dirname + '/../..',
 var isMarkdown = require(lib_dir + '/isMarkdown.js');
 
 describe('#isMarkdown', function (){
-  it('returns true if we test `test.md`', function (){
+  it('returns true if we test *.md and *.markdown', function (){
     assert.equal(isMarkdown('test.md'), true);
+    assert.equal(isMarkdown('test.markdown'), true);
   });
 
   it("doesn't throw when the regex pattern can't find any form of file extension", function (){
-    assert.doesNotThrow(isMarkdown('test'));
+    assert.doesNotThrow(function (){
+      isMarkdown('test');
+    });
+  });
+
+  it("doesn't throw when we do not pass a string to check", function (){
+    assert.doesNotThrow(function (){
+      isMarkdown();
+    });
   });
 
 });
