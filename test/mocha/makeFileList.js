@@ -19,4 +19,10 @@ describe('#makeFileList', function (){
     });
   });
 
+    it("doesn't throw when we pass a wrong type", function (){
+    assert.doesNotThrow(function (){
+      makeFileList({wrong: 'type'});
+    });
+  });
+
 });
