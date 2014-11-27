@@ -12,7 +12,6 @@ process.MSGS = require(lib_dir + 'msgs.js');
 var getCommentData = require(lib_dir + 'getCommentData.js');
 
 
-
 describe('#getCommentData', function (){
 
   it("doesn't throw when we pass no arguments", function (){
