@@ -6,6 +6,7 @@ var base_dir = __dirname + '/../..',
 
 var makeFileList = require(lib_dir + 'makeFileList.js');
 
+
 describe('#makeFileList', function (){
   it("doesn't throw when we do not pass a files array", function (){
     assert.doesNotThrow(function (){

@@ -3,7 +3,9 @@ var assert = require('assert');
 var base_dir = __dirname + '/../..',
     lib_dir = base_dir + '/lib';
 
+
 var isMarkdown = require(lib_dir + '/isMarkdown.js');
+
 
 describe('#isMarkdown', function (){
   it('returns true if we test *.md and *.markdown', function (){
