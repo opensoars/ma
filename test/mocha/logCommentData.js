@@ -9,6 +9,8 @@ process.cls = require(module_dir + 'opensoars_cls');
 process.MSGS = require(lib_dir + 'msgs.js');
 
 
+
+
 var logCommentData = require(lib_dir + 'logCommentData.js');
 
 
@@ -24,7 +26,7 @@ describe('#logCommentData', function (){
 
     process.logErr = function (){
       assert.equal(arguments.length, 1);
-      done();
+      console.log("WORKD");
     };
 
     var logCommentData = require(lib_dir + 'logCommentData.js');
