@@ -30,10 +30,8 @@ describe('#getCommentData', function (){
   it('gives a msg string back with the passed in file name in it', function (){
     var comment_data = getCommentData('test');
 
-    console.log(comment_data);
-
     assert.notEqual(comment_data.msg.indexOf('test'), -1);
-  })
+  });
  
   it('turns `true` green', function (){
     var comment_data = getCommentData('test', true, true, true, true);
