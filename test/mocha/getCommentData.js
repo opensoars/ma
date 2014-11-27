@@ -9,16 +9,17 @@ process.cls = require(module_dir + 'opensoars_cls');
 process.MSGS = require(lib_dir + 'msgs.js');
 
 
+var getCommentData = require(lib_dir + 'getCommentData.js');
 
 
-var logCommentData = require(lib_dir + 'logCommentData.js');
 
 
-describe('#logCommentData', function (){
+/*
+describe('#getCommentData', function (){
 
   it("doesn't throw when we pass no arguments", function (){
     assert.doesNotThrow(function (){
-      logCommentData();
+      getCommentData();
     });
   });
 
@@ -29,8 +30,9 @@ describe('#logCommentData', function (){
       console.log("WORKD");
     };
 
-    var logCommentData = require(lib_dir + 'logCommentData.js');
-    logCommentData('a', 'b', 'c', 'd', 'e');
+    var logCommentData1 = require(lib_dir + 'getCommentData.js');
+    logCommentData1('a', 'b', 'c', 'd', 'e');
   });
 
 });
+*/
