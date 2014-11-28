@@ -27,6 +27,10 @@ describe('#getCommentData', function (){
     assert.notEqual(comment_data.list, undefined);
   });
 
+  it('return an object with property msg of type string', function (){
+    assert.equal(typeof comment_data.msg, 'string');
+  });
+
   it('returns a msg string with the passed in file name in it', function (){
     var comment_data = getCommentData('test');
 
