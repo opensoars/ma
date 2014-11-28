@@ -28,7 +28,11 @@ describe('#getCommentData', function (){
   });
 
   it('return an object with property msg of type string', function (){
-    assert.equal(typeof comment_data.msg, 'string');
+    assert.equal(comment_data.list.constructor , Array);
+  });
+
+  it('return an object with property list of type array', function (){
+    assert.equal(comment_data.list.constructor , Array);
   });
 
   it('returns a msg string with the passed in file name in it', function (){
