@@ -45,9 +45,7 @@ There is one limitation regarding the naming of sections and sub sections, they 
 ## Todo
 
 * Better testing
-* Fix multiple runs on a single file
-* Fix editing existing files
-* Write example to show on readme
+* Allow saving to new file
 
 ---
 
