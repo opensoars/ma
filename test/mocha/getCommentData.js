@@ -15,14 +15,11 @@ var getCommentData = require(lib_dir + 'getCommentData.js');
 describe('#getCommentData', function (){
 
   it("doesn't throw when we pass no arguments", function (){
-    assert.doesNotThrow(function (){
-      getCommentData();
-    });
+    assert.doesNotThrow(getCommentData);
   });
 
   it('returns an object with properties: msg and list', function (){
     var comment_data = getCommentData();
-
     assert.notEqual(comment_data.msg, undefined);
     assert.notEqual(comment_data.list, undefined);
   });
@@ -39,7 +36,6 @@ describe('#getCommentData', function (){
 
   it('returns a msg string with the passed in file name in it', function (){
     var comment_data = getCommentData('test');
-
     assert.notEqual(comment_data.msg.indexOf('test'), -1);
   });
  
