@@ -23,11 +23,11 @@ describe('#getCommentData', function (){
   it('returns an object with properties: msg and list', function (){
     var comment_data = getCommentData();
 
-    assert.equal(typeof comment_data.msg, 'string');
-    assert.equal(comment_data.list.constructor , Array);
+    assert.notEqual(comment_data.msg, undefined);
+    assert.notEqual(comment_data.list, undefined);
   });
 
-  it('gives a msg string back with the passed in file name in it', function (){
+  it('returns a msg string with the passed in file name in it', function (){
     var comment_data = getCommentData('test');
 
     assert.notEqual(comment_data.msg.indexOf('test'), -1);
