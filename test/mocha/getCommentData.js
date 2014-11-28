@@ -28,10 +28,12 @@ describe('#getCommentData', function (){
   });
 
   it('return an object with property msg of type string', function (){
+    var comment_data = getCommentData('test');
     assert.equal(comment_data.list.constructor , Array);
   });
 
   it('return an object with property list of type array', function (){
+    var comment_data = getCommentData('test');
     assert.equal(comment_data.list.constructor , Array);
   });
 
