@@ -45,8 +45,8 @@ There is one limitation regarding the naming of sections and sub sections, they 
 ## Todo
 
 * Better testing
-* Allow saving to new file, specified by setting command line argument
-
+* Save to new file, using cli
+* Process an already processed file, add new anchors and links
 ---
 
 ## Example
