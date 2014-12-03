@@ -5,7 +5,7 @@ var cls = require('opensoars_cls'),
     logWarn = new Ezlog(['[ma]', 'green'], ['yellow']),
     logErr = new Ezlog(['[ma]', 'green'], ['red']);
 
-// Make styling function global
+// Make styling functions global
 process.cls = cls;
 process.log = log;
 process.logWarn = logWarn;
