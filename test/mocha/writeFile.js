@@ -6,10 +6,26 @@ var base_dir = __dirname + '/../..',
 
 process.MSGS = require(lib_dir + 'msgs.js');
 
+var writeFile = require(lib_dir + 'writeFile.js')
+
 
 describe('#writeFile', function (){
 
+  it('returns an error when no file_name is given', function (done){
+    writeFile(undefined, undefined, function (err){
+      if(err) done();
+    });
+  });
+
+  
+
+});
+
+
 /*
+
+describe('#writeFile', function (){
+
   it('logs and exits when we do not specify a file name', function (done){
     
     process.logErr = function (){
