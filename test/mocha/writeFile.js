@@ -24,59 +24,28 @@ describe('#writeFile', function (){
   });
 
   it('returns an error when no file_data is given', function (done){
-    writeFile('hello', 'world', function (err){
-
+    writeFile('hello', undefined, function (err){
+      if(err) done();
     });
   });
 
   it('returns an error when file_data is not a string', function (done){
-    writeFile('hello', 'world', function (err){
-
+    writeFile('hello', {a: 'b'}, function (err){
+      if(err) done();
     });
   });
 
-  it('returns an error when no callback is given', function (){
-    writeFile('hello', 'world', function (err){
-
+  it('throws when no callback is given', function (){
+    assert.throws(function (){
+      writeFile('hello', 'world');
     });
   });
 
-  it('returns an error when callback is not a function', function (){
-    writeFile('hello', 'world');
+
+  it('throws when callback is not a function', function (){
+    assert.throws(function (){
+      writeFile('hello', 'world', {a: 'b'});
+    });
   });
 
 });
-
-
-/*
-
-describe('#writeFile', function (){
-
-  it('logs and exits when we do not specify a file name', function (done){
-    
-    process.logErr = function (){
-      assert.equal(arguments.length, 1);
-      done();
-    };
-
-    var writeFile = require(lib_dir + 'writeFile.js')
-    writeFile();
-  });
-
-
-  it("doesn't throw when we specify a wrong file_data type", function (){
-
-    process.logErr = function (){
-      console.log('WONT GET CALLED');
-    };
-
-    
-    assert.doesNotThrow(function (){
-      var writeFile = require(lib_dir + 'writeFile.js')
-      writeFile('test', {a: 'b'});
-    });
-
-  });
-
-});
-*/
