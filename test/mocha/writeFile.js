@@ -24,28 +24,35 @@ describe('#writeFile', function (){
   });
 
   it('returns an error when no file_data is given', function (done){
-    writeFile('hello', undefined, function (err){
+    writeFile('test_file', undefined, function (err){
       if(err) done();
     });
   });
 
   it('returns an error when file_data is not a string', function (done){
-    writeFile('hello', {a: 'b'}, function (err){
+    writeFile('test_file', {a: 'b'}, function (err){
       if(err) done();
     });
   });
 
   it('throws when no callback is given', function (){
     assert.throws(function (){
-      writeFile('hello', 'world');
+      writeFile('test_file', 'test_data');
     });
   });
 
-
   it('throws when callback is not a function', function (){
     assert.throws(function (){
-      writeFile('hello', 'world', {a: 'b'});
+      writeFile('test_file', 'test_data', {a: 'b'});
     });
+  });
+
+  it('does not return an error when all parameters are present and correct', function (){
+
+    writeFile(__dirname + '/test_file', 'test_data', function (err){
+      if(!err) done();
+    });
+
   });
 
 });
