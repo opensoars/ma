@@ -47,12 +47,16 @@ describe('#writeFile', function (){
     });
   });
 
-  it('does not return an error when all parameters are present and correct', function (){
+  it('returns an error when fs could not write the file', function (done){
+    writeFile(__dirname + '/does_not_exist/test/123', 'test_data', function (err){
+      if(err) done();
+    });
+  });
 
-    writeFile(__dirname + '/test_file', 'test_data', function (err){
+  it('does not return an error and writes a file when all parameters are present and correct', function (done){
+    writeFile(__dirname + '/../test_file', 'test_data', function (err){
       if(!err) done();
     });
-
   });
 
 });
