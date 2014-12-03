@@ -5,7 +5,7 @@ var base_dir = __dirname + '/../..',
 
 
 describe('#writeFile', function (){
-  it('logs and exits when we do not specify a file name', function (){
+  it('logs and exits when we do not specify a file name', function (done){
     
 
     process.logErr = function (){
