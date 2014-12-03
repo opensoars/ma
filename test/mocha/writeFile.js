@@ -17,7 +17,33 @@ describe('#writeFile', function (){
     });
   });
 
-  
+  it('returns an error when file_name is not a string', function (done){
+    writeFile({a: 'b'}, undefined, function (err){
+      if(err) done();
+    });
+  });
+
+  it('returns an error when no file_data is given', function (done){
+    writeFile('hello', 'world', function (err){
+
+    });
+  });
+
+  it('returns an error when file_data is not a string', function (done){
+    writeFile('hello', 'world', function (err){
+
+    });
+  });
+
+  it('returns an error when no callback is given', function (){
+    writeFile('hello', 'world', function (err){
+
+    });
+  });
+
+  it('returns an error when callback is not a function', function (){
+    writeFile('hello', 'world');
+  });
 
 });
 
