@@ -6,7 +6,7 @@ Asynchronous and modular Node.js made easy.
 
 ## Table of contents
 
-<!--- TABLE_OF_CONTENTS -->
+<!-- TABLE_OF_CONTENTS -->
 
 * Introduction
   - Asynchronous Node.js
