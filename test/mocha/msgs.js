@@ -22,4 +22,16 @@ describe('#msgs', function (){
 
   });
 
+  it('has only string values', function (){
+
+    var isnt_string = false;
+
+    for(var key in msgs)
+      if(typeof msgs[key] !== 'string')
+        isnt_string = true;
+
+    assert.equal(isnt_string, false);
+
+  });
+
 });
