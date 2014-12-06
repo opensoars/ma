@@ -6,7 +6,7 @@ var base_dir = __dirname + '/../..',
 
 process.MSGS = require(lib_dir + 'msgs.js');
 
-var writeFile = require(lib_dir + 'writeFile.js')
+var writeFile = require(lib_dir + 'writeFile.js');
 
 
 describe('#writeFile', function (){
