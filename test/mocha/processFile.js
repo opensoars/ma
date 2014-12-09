@@ -6,7 +6,7 @@ var base_dir = __dirname + '/../..',
 var processFile = require(lib_dir + 'processFile.js');
 
 describe('#processFile', function (){
-  it('', function (){
+  it('should write a processed file if everything succeeds', function (){
     
   });
 });
