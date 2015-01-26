@@ -18,7 +18,7 @@ Makes it simple to create a table of contents section with anchor links to heade
 
 ## Use
 
-Ma assumes you use a correct indentation style. No tab characters and two spaces for each indentation.
+Ma assumes you use a correct indentation style. No tab characters and two or four spaces for each level of indentation.
 
 Define the location of your table of contents by placing it between these two comments: 
 
