@@ -1,4 +1,5 @@
-var assert = require('assert');
+var assert = require('assert'),
+    fs = require('fs');
 
 var base_dir = __dirname + '/../..',
     lib_dir = base_dir + '/lib/';
