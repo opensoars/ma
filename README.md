@@ -65,7 +65,6 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 ## Table of contents
 
 <!--- TABLE_OF_CONTENTS -->
-
 * Lorem
   * Amet
     * Elit
@@ -73,7 +72,6 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
   * laborum
   * Mollit
 * Dolor
-
 <!--- /TABLE_OF_CONTENTS -->
 
 ---
