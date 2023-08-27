@@ -1,35 +1,27 @@
 {
   "name": "ma",
-
   "description": "Markdown anchors made easy",
-
   "version": "0.0.7",
-
   "scripts": {
     "test": "node node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha \"./tests/mocha/*.js\" && npm run coveralls",
     "localTest": "node node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha \"./tests/mocha/*.js\"",
     "coveralls": "node node_modules/coveralls/bin/coveralls.js < coverage/lcov.info"
   },
-
-  "engines" : {
-    "node" : ">=0.8"
+  "engines": {
+    "node": ">=0.8"
   },
-
   "dependencies": {
     "ezlog": "0.0.14",
     "opensoars_cls": "0.0.10"
   },
-
   "devDependencies": {
     "mocha": "*",
     "istanbul": "*",
     "coveralls": "*"
   },
-
   "repository": {
     "type": "git",
     "url": "https://github.com/opensoars/ma"
   },
-
   "readmeFilename": "README.md"
 }
