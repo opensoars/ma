@@ -1,7 +1,7 @@
 {
   "name": "ma",
   "description": "Markdown anchors made easy",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "scripts": {
     "test": "node node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha \"./tests/mocha/*.js\" && npm run coveralls",
     "localTest": "node node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha \"./tests/mocha/*.js\"",
